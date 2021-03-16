@@ -81,43 +81,43 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/.pnpm/lodash@4.17.21/node_modules/lodash/isArray.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/.pnpm/lodash@4.17.21/node_modules/lodash/isArray.js ***!
-  \**************************************************************************/
+/***/ "../node_modules/.pnpm/lodash@4.17.21/node_modules/lodash/isArray.js":
+/*!***************************************************************************!*\
+  !*** ../node_modules/.pnpm/lodash@4.17.21/node_modules/lodash/isArray.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("/**\n * Checks if `value` is classified as an `Array` object.\n *\n * @static\n * @memberOf _\n * @since 0.1.0\n * @category Lang\n * @param {*} value The value to check.\n * @returns {boolean} Returns `true` if `value` is an array, else `false`.\n * @example\n *\n * _.isArray([1, 2, 3]);\n * // => true\n *\n * _.isArray(document.body.children);\n * // => false\n *\n * _.isArray('abc');\n * // => false\n *\n * _.isArray(_.noop);\n * // => false\n */\nvar isArray = Array.isArray;\n\nmodule.exports = isArray;\n\n\n//# sourceURL=webpack:///./node_modules/.pnpm/lodash@4.17.21/node_modules/lodash/isArray.js?");
+eval("/**\n * Checks if `value` is classified as an `Array` object.\n *\n * @static\n * @memberOf _\n * @since 0.1.0\n * @category Lang\n * @param {*} value The value to check.\n * @returns {boolean} Returns `true` if `value` is an array, else `false`.\n * @example\n *\n * _.isArray([1, 2, 3]);\n * // => true\n *\n * _.isArray(document.body.children);\n * // => false\n *\n * _.isArray('abc');\n * // => false\n *\n * _.isArray(_.noop);\n * // => false\n */\nvar isArray = Array.isArray;\n\nmodule.exports = isArray;\n\n\n//# sourceURL=webpack:///../node_modules/.pnpm/lodash@4.17.21/node_modules/lodash/isArray.js?");
 
 /***/ }),
 
-/***/ "./src/add-content.js":
-/*!****************************!*\
-  !*** ./src/add-content.js ***!
-  \****************************/
+/***/ "./add-content.js":
+/*!************************!*\
+  !*** ./add-content.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash_isArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash/isArray */ \"./node_modules/.pnpm/lodash@4.17.21/node_modules/lodash/isArray.js\");\n/* harmony import */ var lodash_isArray__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_isArray__WEBPACK_IMPORTED_MODULE_0__);\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function() {\n    document.write('Hello World')\n});\n\n//# sourceURL=webpack:///./src/add-content.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash_isArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash/isArray */ \"../node_modules/.pnpm/lodash@4.17.21/node_modules/lodash/isArray.js\");\n/* harmony import */ var lodash_isArray__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_isArray__WEBPACK_IMPORTED_MODULE_0__);\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function() {\n    document.write('Hello World')\n});\n\n//# sourceURL=webpack:///./add-content.js?");
 
 /***/ }),
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/***/ "./index.js":
+/*!******************!*\
+  !*** ./index.js ***!
+  \******************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _add_content_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./add-content.js */ \"./src/add-content.js\");\n\ndocument.write('My first Webpack app');\nObject(_add_content_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _add_content_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./add-content.js */ \"./add-content.js\");\n\ndocument.write('My first Webpack app');\nObject(_add_content_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ })
 
